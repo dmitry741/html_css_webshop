@@ -19,4 +19,11 @@ h1 {
     list-style-type:square;
 }
 
+/* for all paragraphes */
+p {
+    color: RGB(80, 40, 10);
+    font-family: Verdana;
+    font-size: 14px;
+}
+
 </style>
