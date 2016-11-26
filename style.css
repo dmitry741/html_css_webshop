@@ -1,0 +1,22 @@
+<style type="text/css">
+
+body {
+   
+}
+
+h1 {
+    text-align: left;
+    color: darkblue;
+}
+
+/* image height for catalog */
+.catalog_image {
+    width: 160px;
+}
+
+/* marker for the main menu */
+.main_marker {
+    list-style-type:square;
+}
+
+</style>
