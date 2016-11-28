@@ -1,6 +1,18 @@
 <style type="text/css">
 
 /* Tags */
+/* for all paragraphes */
+p {
+    color: RGB(80, 40, 10);
+    font-family: Verdana, Arial;
+    font-size: 14px;
+}
+
+li {
+    color: darkorange;
+    font-family: Verdana, Arial;
+    font-size: 12px;
+}
 
 h1 {
     text-align: left;
@@ -13,6 +25,10 @@ td {
 
 a:hover {
     color: darkgoldenrod;
+}
+
+table {    
+    color: darkorange;
 }
 
 /* classes */
@@ -64,13 +80,6 @@ a:hover {
 /* marker for the main menu */
 .main_marker {
     list-style-type:square;
-}
-
-/* for all paragraphes */
-p {
-    color: RGB(80, 40, 10);
-    font-family: Verdana;
-    font-size: 14px;
 }
 
 </style>
