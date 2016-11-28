@@ -1,16 +1,37 @@
 <style type="text/css">
 
-body {
-  background-color: beige;
-}
+/* Tags */
 
 h1 {
     text-align: left;
     color: darkblue;
 }
 
+/* classes */
+
+.header {
+    background-color: antiquewhite;
+}
+
+.header h1 {
+    color: brown;
+}
+
+.mainarea {
+    background-color: beige;
+}
+
+.footer {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+
 /* image height for catalog */
 .catalog_image {
+    border-style: solid;
+    border-width: medium;
+    border-color: darkkhaki;
     width: 160px;
 }
 
