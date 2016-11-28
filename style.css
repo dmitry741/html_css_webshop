@@ -11,6 +11,10 @@ td {
     padding-right: 30px;
 }
 
+a:hover {
+    color: darkgoldenrod;
+}
+
 /* classes */
 
 .smalltext {
@@ -42,6 +46,13 @@ td {
     border-width: medium;
     border-color: darkkhaki;
     width: 160px;
+}
+
+.product_image {
+    border-style: solid;
+    border-width: medium;
+    border-color: darkkhaki;
+    width= 320px;
 }
 
 /* marker for the main menu */
