@@ -55,6 +55,12 @@ a:hover {
     width= 320px;
 }
 
+.main_page {
+    border-style: solid;
+    border-width: medium;
+    border-color: darkkhaki;
+}
+
 /* marker for the main menu */
 .main_marker {
     list-style-type:square;
