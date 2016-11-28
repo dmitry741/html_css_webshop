@@ -6,20 +6,26 @@
     <title>Online магазин хорошего кофе</title>
 </head>
 <body>
-   <ul class="main_marker">
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="catalog_goods.html">Каталог</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-      <li><a href="about_coffee.html">Немного о кофе</a></li>
-   </ul>
-   <hr>
-   <h1>Кофейная галерея</h1>
+  <div class="header">
+     <h1>Кофейная галерея</h1>
+     <h2>Добро пожаловать в наш магазин хорошего кофе.</h2>
+     <table>
+         <tr>
+             <td><a href="index.html">Главная</a></td>
+             <td><a href="catalog_goods.html">Каталог</a></td>
+             <td><a href="contacts.html">Контакты</a></td>             
+             <td><a href="about_coffee.html">Немного о кофе</a></td>
+         </tr>
+     </table>
+      <hr>
+    </div>
+    <div class="mainarea">
    <h2>Контактная информация</h2>
    <p>Ждем Вас в нашем пункте выдачи заказов по адресу<br>
    Нижний Новогрод, Московское шоссе 12, тц РИО<br>
    Мы работаем ежедневно с 9.00 до 21.00</p>
    <br>
-   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1860.6294362819842!2d43.925639491760755!3d56.318203381708194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1479907674422" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1860.6294362819842!2d43.925639491760755!3d56.318203381708194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1479907674422" width="450" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
    <br>
    <h3>Форма обратной связи</h3>
    <p>Если у Вас есть какие-либо вопросы будем рады ответить на них.</p>
@@ -31,11 +37,17 @@
           <input type="text" size="30" placeholder="Тема сообщения"><br><br>
           <input type="file"><br><br>
           <textarea name="textarea1" id="textarea_id1" cols="40" rows="10"></textarea><br><br>
-          <input type="submit" value="Отправить"><br><br>
+          <input type="submit" value="Отправить">
           <input type="reset" value="Очистить">
       </fieldset>       
    </form>
     <hr>
-    <footer>Все права защищены &copy; Павлов Дмитрий 2016.</footer>
+    </div>
+    <div class="footer">
+    <footer>Все права защищены &copy; Павлов Дмитрий 2016.<br>
+        Телефон: 8-800-500-85-85.<br>
+        <span class="smalltext">Звонок по России бесплатный</span>
+    </footer>
+    </div>
 </body>
 </html>
