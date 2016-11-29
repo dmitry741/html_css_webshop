@@ -1,7 +1,7 @@
 <style type="text/css">
 
 /* Tags */
-/* for all paragraphes */
+
 p {
     color: RGB(80, 40, 10);
     font-family: Verdana, Arial;
@@ -23,7 +23,26 @@ a:hover {
     color: darkgoldenrod;
 }
 
+img:hover {
+    border-color: orange;
+}
+
 /* classes */
+
+.myfeedback input[type="text"] {
+    font-family: Arial, Verdana;
+    font-size: 12px;
+    color: dimgrey;
+    text-transform: capitalize;
+}
+
+.mainarea tr:nth-child(odd){
+    background-color: bisque;
+}
+
+.mainarea tr:nth-child(even){
+    background-color: burlywood;
+}
 
 .table_main_menu td {
     padding-right: 30px;
@@ -52,7 +71,7 @@ a:hover {
     background-color: antiquewhite;
 }
 
-.header h1 {
+.header h2 {
     color: brown;
 }
 
@@ -65,8 +84,6 @@ a:hover {
     color: whitesmoke;
 }
 
-
-/* image height for catalog */
 .catalog_image {
     border-style: solid;
     border-width: medium;
@@ -85,11 +102,6 @@ a:hover {
     border-style: solid;
     border-width: medium;
     border-color: darkkhaki;
-}
-
-/* marker for the main menu */
-.main_marker {
-    list-style-type:square;
 }
 
 </style>
