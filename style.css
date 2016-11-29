@@ -19,19 +19,29 @@ h1 {
     color: darkblue;
 }
 
-td {
-    padding-right: 30px;
-}
-
 a:hover {
     color: darkgoldenrod;
 }
 
-table {    
-    color: darkorange;
+/* classes */
+
+.table_main_menu td {
+    padding-right: 30px;
 }
 
-/* classes */
+.mainarea table {
+    color: RGB(80, 40, 10);
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;    
+}
+
+.mainarea td {
+    padding-right: 24px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;    
+}
 
 .smalltext {
     font-size: 0.8em;
