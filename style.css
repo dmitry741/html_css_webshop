@@ -1,15 +1,5 @@
 <style type="text/css">
 
-/* Tags */
-
-a:hover {
-    color: darkgoldenrod;
-}
-
-img:hover {
-    border-color: orange;
-}
-
 /* classes */
 
 .myfeedback input[type="text"] {
@@ -57,6 +47,14 @@ img:hover {
     border-collapse: collapse;    
 }
 
+.mainarea a:hover {
+    color: blueviolet;
+}
+
+.mainarea img:hover {
+    border-color: orange;
+}
+
 .smalltext {
     font-size: 0.8em;
     color: gainsboro;
@@ -68,6 +66,10 @@ img:hover {
 
 .header h2 {
     color: brown;
+}
+
+.header a:hover {
+    color: darkgoldenrod;
 }
 
 .mainarea {
