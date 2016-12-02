@@ -1,5 +1,10 @@
 <style type="text/css">
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* classes */
 
 .myfeedback input[type="text"] {
@@ -7,6 +12,12 @@
     font-size: 12px;
     color: dimgrey;
     text-transform: capitalize;
+}
+
+.mainarea {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: beige;
 }
 
 .mainarea li {
@@ -66,6 +77,12 @@
 
 .header {
     background-color: antiquewhite;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
 }
 
 .header h2 {
@@ -76,13 +93,12 @@
     color: darkgoldenrod;
 }
 
-.mainarea {
-    background-color: beige;
-}
-
 .footer {
     background-color: #2F2F2F;
     color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .catalog_image {
