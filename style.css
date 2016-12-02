@@ -7,6 +7,36 @@
 
 /* classes */
 
+.header {
+    background-color: antiquewhite;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.header h2 {
+    color: brown;
+}
+
+.header a:hover {
+    color: darkgoldenrod;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container div {
+    width: 240px;
+    height: 240px;    
+}
+
 .myfeedback input[type="text"] {
     font-family: Arial, Verdana;
     font-size: 12px;
@@ -18,6 +48,10 @@
     padding-bottom: 20px;
     padding-left: 20px;
     background-color: beige;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 .mainarea li {
@@ -73,24 +107,6 @@
 
 .price_desc {
     font-size: 0.9em;
-}
-
-.header {
-    background-color: antiquewhite;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
-}
-
-.header h2 {
-    color: brown;
-}
-
-.header a:hover {
-    color: darkgoldenrod;
 }
 
 .footer {
